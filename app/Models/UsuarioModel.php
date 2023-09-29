@@ -16,7 +16,7 @@ class UsuarioModel extends Model
         'senha'
     ];
 
-    //protected $beforeInsert = ['hashPassword'];
+    protected $beforeInsert = ['hashPassword'];
 
     protected $validationRules = [
         'nome' => [
