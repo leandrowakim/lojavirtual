@@ -20,7 +20,7 @@
                     <p style="margin-top: 10px;">Produto Indisponível</p>
                 <?php endif; ?>
             <?php else : ?>
-                <p style="margin-top: 10px;">Logue-se para comprar o produto.<br /><a href="<?php echo base_url('login/signin') ?>">Clique aqui para Logar-se</a></p>
+                <p style="margin-top: 10px;">Logue-se para comprar o produto.<br /><a href="<?php echo base_url('login') ?>">Clique aqui para Logar-se</a></p>
             <?php endif; ?>
         </div>
         <div class="clear"></div>

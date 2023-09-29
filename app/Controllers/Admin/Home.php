@@ -36,9 +36,9 @@ class Home extends BaseController
             ];
         }
 
-        $variaveis = [
+        $dados = [
             'dadosCompras' => $dadosCompras
         ];
-        echo view('admin/home/index', $variaveis);
+        echo view('admin/home/index', $dados);
     }
 }
