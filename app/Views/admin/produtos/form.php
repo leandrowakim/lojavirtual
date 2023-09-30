@@ -1,7 +1,6 @@
 <?php echo $this->extend('admin/layout') ?>
 <?php echo $this->section('conteudo') ?>
 
-
 <h2>::<?php echo $titulo ?></h2>
 <div class="content-form">
     <?php echo form_open_multipart('admin/produto/store', ['novalidate' => true]) ?>

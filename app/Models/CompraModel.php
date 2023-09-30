@@ -25,6 +25,7 @@ class CompraModel extends Model
             ->select("compras.id as id_compra, produtos.id as id_produto, produtos.nome_produto, compras.data")
             ->join('produtos', 'produtos.id = compras.produtos_id')
             ->where('usuarios_id', $id_usuario)
+            ->orderBy('compras.data', 'desc')
             ->findAll();
     }    
 }

@@ -5,10 +5,8 @@ namespace App\Controllers\Admin;
 use App\Controllers\BaseController;
 use App\Models\BannerModel;
 
-
 class Banner extends BaseController
 {
-
     private $bannerModel;
 
     public function __construct()
